@@ -1,0 +1,5 @@
+*.o
+gcm.cache/
+a.out
+App
+build/
