@@ -1,4 +1,4 @@
-// my_math.ixx
+// my_math.cxx
 
 export module my_math;
 
