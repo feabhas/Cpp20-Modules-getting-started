@@ -4,7 +4,8 @@ module;
 #include <numeric>
 #include <vector>
 
-module my_math;
+module my.math;  // the module name and namespace are orthoginal
+// the '.' pays no part in any form of nesting, it's just an alternative to using '_'
 
 // import std.core;
 
