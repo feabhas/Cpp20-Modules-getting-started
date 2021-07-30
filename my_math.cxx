@@ -2,6 +2,10 @@
 
 export module my_math;
 
-export int add(int fir, int sec){
+export int add(int fir, int sec);
+
+int add(int fir, int sec){
     return fir + sec;
 } 
+
+// module : private;

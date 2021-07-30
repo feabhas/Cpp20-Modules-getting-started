@@ -7,4 +7,9 @@ add_compile_options(
 )
 
 # order is important
-add_executable(Application my_math.cxx client.cpp )
+add_executable(Application 
+    my_math_if.cxx 
+    my_math_imp.cxx 
+    my_math.cxx 
+    client.cpp 
+)
