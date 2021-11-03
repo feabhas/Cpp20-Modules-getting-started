@@ -62,11 +62,11 @@ jobs:
     #    and modify them (or add more) to build your code if your project
     #    uses a compiled language
 
-    - run: |
-      cd part1
-      cmake -S . -Bbuild
-      cmake --build build
+    - name: Configure Cmake
+      working-directory: ${{github.workspace}}/part1
+      run: |
+        cmake -S . -Bbuild
     #   make release
 
-    - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v1
+#     - name: Perform CodeQL Analysis
+#       uses: github/codeql-action/analyze@v1
